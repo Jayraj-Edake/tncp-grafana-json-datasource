@@ -1,6 +1,6 @@
 {
-    "name": "IBM-TNCP",
-     "id": "TNCP",
+    "name": "IBM-Tncpplugin",
+     "id": "jayrajedake-IBmTNCP-datasource",
     "type": "datasource",
     "annotations": true,
     "metrics": true,
@@ -11,15 +11,18 @@
         },
         "description": "Load JSON data over your arbitrary HTTP backend",
         "keywords": ["json", "api"],
-        
+        "logos": {
+            "small": "img/json-logo.svg",
+            "large": "img/json-logo.svg"
+        },        
         "links": [
             {
                 "name": "GitHub",
-                "url": "https://github.com/simPod/grafana-json-datasource"
+                "url": "https://github.com/Jayraj-Edake/tncp-grafana-json-datasource"
             },
             {
                 "name": "MIT License",
-                "url": "https://github.com/simPod/grafana-json-datasource/blob/master/LICENSE"
+                "url": "https://github.com/Jayraj-Edake/tncp-grafana-json-datasource/blob/tncp-grafana-json-datasource/LICENSE"
             }
         ],
         "version": "%VERSION%",

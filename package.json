@@ -17,11 +17,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simPod/grafana-json-datasource.git"
+    "url": "https://github.com/Jayraj-Edake/tncp-grafana-json-datasource"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/simPod/grafana-json-datasource/issues"
+    "url": "https://github.com/Jayraj-Edake/tncp-grafana-json-datasource"
   },
   "engineStrict": true,
   "devDependencies": {
@@ -37,5 +37,5 @@
     "react-virtualized-auto-sizer": "^1.0.5",
     "rxjs": "^7.3.0"
   },
-  "homepage": "https://github.com/simPod/grafana-json-datasource#readme"
+  "homepage": "https://github.com/Jayraj-Edake/tncp-grafana-json-datasource/blob/tncp-grafana-json-datasource/README.md"
 }
