@@ -2,7 +2,7 @@
 
 
 
-The JSON Datasource executes requests against arbitrary backends and parses JSON response into Grafana dataframes.
+The JSON Datasource executes requests against IBM TNCP HTTP backend and parses JSON response into Grafana dataframes.
 
 ## Contents
 
@@ -22,7 +22,7 @@ The JSON Datasource executes requests against arbitrary backends and parses JSON
 To install this plugin using the `grafana-cli` tool:
 
 ```sh
- grafana-cli plugins install jayrajedake-IBmTNCP-datasource
+ grafana-cli plugins install jayrajedake-ibmtncp-datasource
  ```
 
 See [here](https://github.com/Jayraj-Edake/tncp-grafana-json-datasource) for more information.
