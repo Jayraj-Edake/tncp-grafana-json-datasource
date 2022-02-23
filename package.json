@@ -2,7 +2,7 @@
   "name": "grafana-json-datasource",
   "description": "Grafana JSON datasource",
   "main": "index.js",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
@@ -17,11 +17,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jayraj-Edake/tncp-grafana-json-datasource"
+    "url": "git+https://github.com/Jayraj-Edake/tncp-grafana-json-datasource.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jayraj-Edake/tncp-grafana-json-datasource"
+    "url": "https://github.com/Jayraj-Edake/tncp-grafana-json-datasource/issues"
   },
   "engineStrict": true,
   "devDependencies": {
@@ -37,5 +37,5 @@
     "react-virtualized-auto-sizer": "^1.0.5",
     "rxjs": "^7.3.0"
   },
-  "homepage": "https://github.com/Jayraj-Edake/tncp-grafana-json-datasource/blob/tncp-grafana-json-datasource/README.md"
+  "homepage": "https://github.com/Jayraj-Edake/tncp-grafana-json-datasource#readme"
 }
