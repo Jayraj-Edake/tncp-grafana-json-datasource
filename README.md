@@ -1,8 +1,6 @@
 # JSON API Grafana Datasource
 
-[![Build](https://github.com/simPod/GrafanaJsonDatasource/workflows/CI/badge.svg)](https://github.com/simPod/GrafanaJsonDatasource/actions?query=workflow%3A%22CI%22)
-[![Marketplace](https://img.shields.io/badge/dynamic/json?logo=grafana&color=F47A20&label=marketplace&prefix=v&query=%24.items%5B%3F%28%40.slug%20%3D%3D%20%22simpod-json-datasource%22%29%5D.version&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins)](https://grafana.com/grafana/plugins/simpod-json-datasource)
-[![Downloads](https://img.shields.io/badge/dynamic/json?logo=grafana&color=F47A20&label=downloads&query=%24.items%5B%3F%28%40.slug%20%3D%3D%20%22simpod-json-datasource%22%29%5D.downloads&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins)](https://grafana.com/grafana/plugins/simpod-json-datasource)
+
 
 The JSON Datasource executes requests against arbitrary backends and parses JSON response into Grafana dataframes.
 
@@ -24,10 +22,10 @@ The JSON Datasource executes requests against arbitrary backends and parses JSON
 To install this plugin using the `grafana-cli` tool:
 
 ```sh
- grafana-cli plugins install simpod-json-datasource
+ grafana-cli plugins install jayrajedake-IBmTNCP-datasource
  ```
 
-See [here](https://grafana.com/grafana/plugins/simpod-json-datasource/) for more information.
+See [here](https://github.com/Jayraj-Edake/tncp-grafana-json-datasource) for more information.
 
 ## Setup
 
@@ -39,7 +37,7 @@ If you want to add custom headers, keep Access set to `Server`.
 
 ## API
 
-An OpenAPI definition is defined at [openapi.yaml](https://github.com/simPod/GrafanaJsonDatasource/blob/0.3.x/openapi.yaml).
+An OpenAPI definition is defined at [openapi.yaml](https://github.com/Jayraj-Edake/tncp-grafana-json-datasource/blob/tncp-grafana-json-datasource/openapi.yaml).
 
 To work with this datasource the backend needs to implement 4 endpoints:
 
